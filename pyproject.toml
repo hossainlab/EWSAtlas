@@ -1,0 +1,21 @@
+[project]
+name = "ewsatlas"
+version = "0.1.0"
+description = "Harmonized single-cell transcriptomics atlas of Ewing Sarcoma"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "anndata>=0.10.0",
+    "cellhint>=1.0.0",
+    "harmonypy>=0.0.9",
+    "infercnvpy>=0.4.3",
+    "matplotlib>=3.8.0",
+    "numpy>=1.26.0",
+    "pandas>=2.0.0",
+    "pyyaml>=6.0",
+    "scanpy>=1.11.5",
+    "scipy>=1.12.0",
+    "scib-metrics>=0.4.1",
+    "scrublet>=0.2.3",
+    "scvi-tools>=1.4.2",
+]
